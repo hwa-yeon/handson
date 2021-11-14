@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.manage {
+    display: flex;
+    flex-flow:wrap;
+    justify-content: center;
+}
+
+article {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 100px;
+    
+}
+
+article div {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

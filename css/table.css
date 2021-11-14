@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.content table {
+	width:100%; 
+	border-top:1px solid #444444; 
+	border-collapse:collapse;
+}
+
+.content table td {
+	border-bottom:1px solid #444444; 
+	padding:10px; 
+	text-align:center;
+}
+
+.content #button {
+	border:0; 
+	background-color: rgb(38, 78, 142); 
+	color: white;
+}
+
+.content table th {
+	border-bottom:1px solid #444444;
+	padding:10px;
+	text-align:center;
+	background-color: rgb(183, 193, 221);
+}
+
+.content table #color {
+	background-color: rgb(183, 193, 221);
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin:0px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.wrap {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+
+.menu {
+    background-color: rgb(38, 78, 142);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu #title {
+	font-size: 30px;
+	margin-left: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.menu ul li {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.menu li:hover {
+    background-color: rgb(183, 193, 221);
+}
+
+.category {
+	display: table-cell;
+	vertical-align: top;
+	text-align: top;
+	width: 20%;
+	border-right:1px solid rgb(38, 78, 142);
+	height: 870px
+}
+
+.category h2 {
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+}
+
+.category li {
+	vertical-align: top;
+	font-size: 20px;
+}
+
+.category #sell {
+	vertical-align: top;
+	margin: 10px;
+	font-size: 15px;
+}
+
+.content {
+	display: table-cell;
+	width: 80%;
+	height: 100%
+}
